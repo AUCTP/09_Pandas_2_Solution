@@ -1,38 +1,20 @@
 # Data Visualization with Pandas - Make
 
-Write your own code to solve the following tasks using the file `Data/sales.csv`:
+Write your own code to solve the following tasks using the file `Data/StudentsPerformance.csv`:
 
 ## Task 1: Basic Plotting with Pandas
 
-### Subtask 1: Line Plot of Total Sales per Month
-- Load the data and set the column `order_id` as the index.
-- Create a new column `month` from the `order_date` column.
-- Calculate the total sales per month.
-- Plot a line chart of the total sales per month.
+### Subtask 1: Bar Plot of Average Scores per Parental Level of Education
+- Load the data
+- Calculate the average math, reading, and writing scores for each parental level of education.
+- Plot a bar chart of the average scores per parental level of education.
 - Set appropriate labels and a title for the plot.
 
-### Subtask 2: Box Plot of Sales by Region
-- Create a box plot of the sales amount (`sales` column) grouped by region.
+### Subtask 2: Box Plot of Scores by Gender
+- Create a box plot of math, reading, and writing scores grouped by gender.
 - Set appropriate labels and a title for the plot.
 
-### Subtask 3: Scatter Plot of Sales Amount vs. Discount
-- Create a scatter plot of `sales` versus `discount`.
+### Subtask 3: Scatter Plot of Math Scores vs. Reading Scores
+- Create a scatter plot of `math score` versus `reading score`.
 - Add appropriate labels and a title for the plot.
-- Highlight orders with a discount above 20% in a different color.
-
-## Task 2: Advanced Plotting and Customization
-
-### Subtask 1: Line Plot of Average Sales per Product Category Over Time
-- Create a new column `month` from the `order_date` column.
-- Calculate the average sales per product category for each month.
-- Plot a line chart of the average sales per product category over time.
-- Set appropriate labels and a title for the plot.
-
-### Subtask 2: Box Plot of Sales by Product Category
-- Create a box plot of the sales amount (`sales` column) grouped by product category.
-- Set appropriate labels and a title for the plot.
-
-### Subtask 3: Scatter Plot of Sales Amount vs. Quantity
-- Create a scatter plot of `sales` versus `quantity`.
-- Add appropriate labels and a title for the plot.
-- Highlight orders with a quantity above 10 in a different color.
+- Highlight students with a reading score above 80 in a different color.
